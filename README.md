@@ -1,11 +1,6 @@
-# buildspace x thirdweb - Build your own DAO with just Javascript
+#DroughtDAO
 
-### **Welcome 👋**
-To get started with this project, clone this repo and follow these commands:
+This project is a DAO built using thirdweb's SDK. Its a lean implementation of a charitable DAO that provides relief to African countries affected by drought. Users are able to sign in via Metamask. To gain membership they mint free NFTs and receive airdrops of $DROUGHT token which is used for governance. Currently members cannot directly submit proposals to the UI as they are coded manualy. Members can vote on the existing proposals. The project runs on Rinkeby Test Network. 
 
-1. Run `npm install` at the root of your directory
-2. Run `npm start` to start the project
-3. Start coding!
+The project utilizes three smart contracts deployed using thirdweb. The first is an ERC-1155 which allows users to mint membership NFTs. The second contract is an ERC-20 which creates the $DROUGHT token used for governance. The final contract enables users to vote on proposals. There also exists a treasury which holds close to 60% of all the $DROUGHT in supply. 
 
-### **Questions?**
-Have some questions make sure you head over to your [buildspace Dashboard](https://app.buildspace.so/projects/COb520aae3-7925-42f4-a5e7-eaf718933766) and link your Discord account so you can get access to helpful channels and your instructor!
